@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #EF7F1A;
+    border-radius: 20px;
+}
+
+.top-padding {
+    padding-top: 13rem;
+}
+
+.top-logo-left-padding {
+    padding-left: 6rem;
+}
+
+/* #animated-words {
+    position: relative;
+}
+
+.word {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    font-size: 35px;
+    padding-left: 25px;
+    top: 4vw;
+    font-weight: 500;
+}
+
+#animated-words span:first-child {
+    opacity: 1;
+} */
+.screen1 {
+    display: block;
+    position: relative;
+}
+
+.screen1-line1 {
+    /* display: block; */
+    position: absolute;
+    top: 18.844rem;
+    left: 32.437rem;
+    width: 25.1111rem;
+    height: 11.4814rem;
+}
+
+.words {
+    display: flex;
+    align-items: end;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 1.875rem;
+}
+
+.top-text-padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.top-text1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.top-text2 {
+    font-size: 1.313rem;
+    font-weight: 500;
+}
+
+.top-text-right-padding {
+    padding-right: 4.5rem;
+}
+
+.vision-padding {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+.vision-top-text {
+    position: absolute;
+    top: 22%;
+    left: 27%;
+}
+
+.bee-margin {
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+.the-bee {
+    color: #fff;
+    font-size: 4.063rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.vision {
+    color: #fff;
+    font-size: 5.438rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.vision-details {
+    color: #fff;
+    max-width: 600px;
+    text-transform: capitalize;
+}
+
+.experience-padding {
+    padding-left: 26rem;
+}
+
+.experience {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.company-details {
+    color: #323232;
+    text-transform: capitalize;
+    max-width: 750px;
+}

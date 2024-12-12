@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Beegains Technology Solutions</title>
+    <link rel="icon" href="images/favicon.ico" sizes="32x32" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" sizes="192x192" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg py-4">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active px-3" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WHO WE ARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRICE CALCULATOR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SCREEN_1 -->
+
+    <div class="screen1">
+
+        <svg class="screen1-line1" data-animation-direction="top-to-bottom" width="400" height="400"
+            viewBox="-10 0  400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 0V78.5C4 101.144 22.3563 119.5 45 119.5H309" stroke="#EF7F1A" stroke-width="16" />
+        </svg>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-9 top-padding">
+                    <div class="d-flex top-logo-left-padding">
+                        <img src="images/beegains.png" alt="bee-logo" class="img-fluid">
+
+
+
+                        <div id="animated-words" class="words">Design</div>
+
+                        <!-- <div id="animated-words">
+                            <span class="word">Design</span>
+                            <span class="word">Marketing</span>
+                            <span class="word">Branding</span>
+                        </div> -->
+
+                    </div>
+                    <div class="text-end top-text-padding">
+                        <div class="top-text1">FUEL YOUR DIGITAL FUTURE</div>
+                        <div class="top-text2">LET YOUR BRAND FLY HIGHER.</div>
+                    </div>
+                    <div class="text-end">
+                        <div class="top-text1 top-text-right-padding">MEDIA AGENCY</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- <img src="images/.png" alt="logo" class="img-fluid"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCREEN_2 -->
+
+    <div class="container-fluid vision-padding px-0 position-relative">
+        <div class="d-flex justify-content-end">
+            <img src="images/vision.png" alt="vision" class="img-fluid">
+            <div class="vision-top-text">
+                <div class="text-white" style="font-weight: 500;">WHO WE ARE</div>
+                <div class="bee-margin">
+                    <div class="the-bee">THE BEE</div>
+                    <div class="vision">VISION</div>
+                    <div class="vision-details mt-4">The bee sees what humans cannot. Beegains was founded with the
+                        vision to enable clients to explore the unexplored.We provide you with customised digital
+                        solutions to expand your reach and online foot-print. We help you scale up your businesses
+                        qualitatively, and quantitatively.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container experience-padding">
+        <div class="experience">We’ve 9+ Years Of</div>
+        <div class="experience">Experience In Tech Services</div>
+        <div class="company-details mt-5">Beegains is a digital business offshoot of Fourite Group. We are a highly
+            innovative full-service digital solutions provider. We deliver holistic services in Digital Marketing,
+            Branding, Web and Software Development, Animation and VFX, Video Production ,and Packaging Design. We cater
+            to a wide range of businesses and organisations. Beegains enables
+            brands with a digital advantage to target and develop their customer base.</div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/orange.png" alt="vision" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script>
+        const words = ["Design", "Marketing", "Branding"];
+        let index = 0;
+
+        function changeWord() {
+            const element = document.getElementById("animated-words");
+            element.textContent = words[index];
+            index = (index + 1) % words.length; // Loop back to the first word
+        }
+
+        setInterval(changeWord, 2000); // Change word every 2 seconds
+    </script>
+
+    <!-- <script>
+        const words = ["Design", "Marketing", "Branding"];
+        let index = 0;
+
+        function changeWord() {
+            const element = document.getElementById("animated-words");
+            const wordsArray = Array.from(element.children);
+            wordsArray.forEach(word => word.style.opacity = '0');
+
+            setTimeout(() => {
+                const currentWord = wordsArray[index];
+                currentWord.style.opacity = '1';
+            }, 20);
+
+            index = (index + 1) % words.length;
+        }
+
+        // Initial fade-in effect
+        changeWord();
+
+        // Set interval for subsequent changes
+        setInterval(changeWord, 2000);
+    </script> -->
+
+
+
+</body>
+
+</html>
