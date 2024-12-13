@@ -42,6 +42,7 @@ body {
 .screen1 {
     display: block;
     position: relative;
+    border: 1px solid red;
 }
 
 .screen1-line1 {
